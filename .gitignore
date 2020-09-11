@@ -1,4 +1,2 @@
-.vscode
 build
-libs/opencv/build_opencv
 .DS_Store
