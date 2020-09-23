@@ -17,8 +17,11 @@ if(DEFINED VCPKG_ROOT)
 	endif()
 endif()
 
+set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/vcpkg/scripts/buildsystems/vcpkg.cmake
+  CACHE STRING "Vcpkg toolchain file")
+
 # project name
-project( ascii-art VERSION 1.0.1)
+project( ascii-art VERSION 0.0.2)
 
 # Find opencv package
 find_package( opencv REQUIRED )

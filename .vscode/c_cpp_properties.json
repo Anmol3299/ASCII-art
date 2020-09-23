@@ -3,8 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${vcpkgRoot}/x64-linux/include"
+                "${workspaceFolder}/**"
             ],
             "cppStandard": "c++17",
             "configurationProvider": "ms-vscode.cmake-tools"
